@@ -41,14 +41,14 @@ h1{
 }
 
 h2{
-  color: #33393D;
+  color: #1A1D1F;
   margin: 50px;
   text-align: center;
   font-size: 40px;
 }
 
 h3{
-  color: #33393D;
+  color: #1A1D1F;
   margin-left: 10%;
   margin-top: 50px;
   text-align: left;
@@ -56,7 +56,7 @@ h3{
 }
 
 p {
-  color: #33393D;
+  color: #1A1D1F;
   margin-left: 10%;
   margin-right: 10%;
   text-align: left;
@@ -72,7 +72,9 @@ nav{
 
 hr{
   width: 80%;
-  color: #33393D;
+  height: 2px;
+  border-color: #1A1D1F;
+  background-color: #1A1D1F;
 }
 
 #on {
@@ -86,7 +88,7 @@ hr{
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   padding: 10.5px 0px 10.5px 0px;
-  color: #33393D;
+  color: #1A1D1F;
   border: none;
 }
 
@@ -114,7 +116,7 @@ hr{
   border-top-right-radius: 10px;
   padding: 10.5px 0px 10.5px 0px;
   text-decoration: none;
-  color: #33393D;
+  color: #1A1D1F;
   border: none;
 }
 
@@ -132,7 +134,7 @@ hr{
 }
 
 .dropdown-content a {
-  color: #33393D;
+  color: #1A1D1F;
   background-color: #AAA49B;
   padding: 12px 16px;
   text-decoration: none;
