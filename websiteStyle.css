@@ -180,14 +180,14 @@ hr{
 }
 
 .contact-card {
-  margin-left: 5%;
+  /**margin-left: 5%;**/
   margin-top: 45px;
   width: 600px;
   height: 300px;
   background-color: white;
 }
 
-.contact-card h1 {
+.contact-container h1 {
   color: #1A1D1F;
   text-align: left;
   font-size: 30px;
@@ -278,4 +278,44 @@ img {
 .quick-button:hover img {
   transform: scale(1.15);
   transition: transform .2s;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contact-form {
+  margin-top: 45px;
+  width: 600px;
+  height: 500px;
+  background-color: white;
+  text-align: center;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 50%;
+  padding: 10px;
+  border:0;
+  outline:0;
+  margin-bottom: 3px;
+  border-radius: 10px;
+  background-color: #1A1D1F;
+  color: #AAA49B;
+}
+
+.contact-form textarea {
+  height: 70px;
+  resize: none;
+}
+
+.contact-form h1 {
+  margin-left: 0;
 }
