@@ -284,6 +284,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  position: relative;
 }
 
 .contact-form {
@@ -318,4 +319,17 @@ img {
 
 .contact-form h1 {
   margin-left: 0;
+}
+
+.contact-download img {
+  padding: 0;
+  width: 70px;
+  height: 70px;
+}
+
+.contact-download {
+  display: flex;
+  position: relative;
+  margin-left: 87%;
+  top: -8px;
 }
